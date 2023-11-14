@@ -1,0 +1,65 @@
+<form action="" class="form">
+    <div>
+        <link rel="stylesheet" href="form.css">
+        <!-- <marquee behavior="scroll" direction="right" scrollamount="10"><h1 class="heading-section" style="background-image: url(fish.webp);" >First form</h1></marquee> -->
+        <h3>Form</h3>
+
+        <label class="Label"> User Name</label>
+        <input type="text" maxlength="25" required="" autocomplete="additional-name">
+        <br><br>
+        <label class="Label"> Mobile</label>
+        <input type="number" maxlength="10">
+        <br><br>
+        <Label class="Label">Email</Label>
+        <input type="email">
+        <br>
+        <br>
+            <label class="Label">Gender</label>
+            <!-- radio button is use for the single selction -->
+            <div class="radio">
+            <input type="radio" name="gender" id="Male" >Male
+            <br>
+            <input type="radio" name="gender" id="Female">Female
+            <br>
+            <input type="radio" name="gender" id="other">other
+            <br>
+        </div>
+        <br>
+        <br>
+        <label>Hobbies</label>
+        <div class="hobbies">
+        <input type="checkbox" name="Painting"> Painting
+        <br>
+        <input type="checkbox" name="Dancing">Dancing
+        <br>
+        <input type="checkbox" name="None">None
+         <br>
+        </div>
+        <br>
+        <br>
+        <label> Phone</label>
+        <input type="text" pattern="[0-9]" maxlength="10">
+        <br>
+        <br>
+        <!-- <label> Name</label>
+        <br><br>
+        <input type="text" pattern="[a-zA-z]{10}$" maxlength="10" required
+            placeholder="Entre your name( placeholder Atb)"><br> -->
+        <label> City</label>
+        <div class="select">
+        <select>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="c.Sambhajinagar">C.Sambhajinagar</option>
+        </select>
+    </div>
+        <br><br>
+        <input type="date">Date
+        <br><br>
+        <button>Submit</button>
+        <br>
+        <br>
+    </div>
+
+    <!-- <input type="button" value="Submit"> -->
+</form>

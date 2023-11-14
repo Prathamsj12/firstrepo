@@ -1,0 +1,13 @@
+form{
+    background-color: lightseagreen;
+    border: 2px solid black;
+    margin-left: 20px;
+    position: absolute;
+    left: 275px;
+    height: 900px;
+    width: 500px;
+
+}
+ label .f{
+    background-color: blue;
+}

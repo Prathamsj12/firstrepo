@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Style for the horizontal list */
+        ul.horizontal-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        ul.horizontal-list li {
+            margin: 0 10px;  
+            position: relative;
+        }
+
+         ul.horizontal-list li::before {
+            content: "•"; 
+            color: #333; 
+            position: absolute;
+            left: -20px;  
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="horizontal-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+</body>
+</html>

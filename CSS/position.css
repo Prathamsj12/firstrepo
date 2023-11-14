@@ -1,0 +1,80 @@
+.spn{
+    display: block;
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    top: 100px;
+    background-color: aqua;
+}
+.sticky-value{
+    color: black;
+    border:  2px solid black;
+    height: 50px;
+    width: 1600px;
+    position: sticky;
+    background-color: purple;
+    
+}
+.abs-value{
+    color: black;
+    border: 3px solid black;
+    height: 800px;
+    width: 150px;
+    position: absolute;
+    top: 200px;
+    left: 8.5px;
+}
+.rel-position{
+    color: black;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    border: 2px solid black;
+}
+.h{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dotted;
+
+}
+.content{
+    color: black;
+    border:  2px solid black;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    bottom: 300px;
+    left: 700px;
+    overflow: auto;
+}
+.Text{
+    color: black;
+    border: 2px solid black;
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.fix-value{
+    color: black;
+    background-color: lightpink;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    width: 1700px;
+    left: 165px;
+    border: 2px solid black;
+}
+.Container-3{
+    height: 250px;
+    width: 250px;
+}

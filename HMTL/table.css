@@ -1,0 +1,94 @@
+/* table,tr,td{
+    border: 2px solid black;
+    background-color: aqua;
+    border-collapse: collapse;
+}
+th{
+    color: black;
+    text-align: center;
+    background-color: brown;
+}
+.table-container{
+    height: 500px;
+    width: 500px;
+} */
+img{ 
+    opacity: 0.5; 
+} 
+ 
+img:hover{ 
+    opacity: 1; 
+} 
+ 
+.verticle-line{ 
+    border-left: 4px solid blueviolet; 
+    height: 500px; 
+    position: absolute; 
+    left: 410px; 
+    top: 0px; 
+} 
+.list li{ 
+    display: inline-block; 
+    list-style-type: disc; 
+} 
+ 
+/* table{ 
+    border: 1px solid black; 
+} 
+ 
+td{ 
+    border: 1px solid black; 
+} */ 
+ 
+/* gouping of element (,)*/ 
+ 
+table,td,th { 
+    border: 1px solid black; 
+    
+   border-collapse: collapse; 
+} 
+ 
+.table-container{ 
+  font-size: 20px; 
+  height: 300px; 
+  width: 300px; 
+  text-align: center; 
+  margin: auto; 
+  position: absolute;
+  top: 5%;
+  left: 10%;
+
+} 
+ 
+td{ 
+    background-color: aquamarine; 
+    text-align:centre;
+    text-transform: capitalize;
+} 
+th{ 
+    background-color: rgb(52, 235, 39); 
+    text-transform: uppercase;
+} 
+ 
+ 
+li { 
+  display: inline-block; 
+  padding: 2px 2px; 
+  
+} 
+ 
+  ul li:before { 
+    content: "\2022"; 
+  }  
+ 
+ 
+  .main{ 
+    background-image: url("fish.webp"); 
+    background-repeat: no-repeat; 
+    width: 900px; 
+    height: 900px; 
+  } 
+ 
+  .main:hover { 
+    opacity: 0.5; 
+  }

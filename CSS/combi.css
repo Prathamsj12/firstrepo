@@ -1,0 +1,33 @@
+/* Decendent selctor  */
+div p{
+    color: aqua;
+}
+/* it will beautify all the p tag inside div tagInclude  it is called as child selector  */
+div >p{
+    color: brown;
+}
+div +p{
+    color: blue;
+}
+input:focus{
+    color: red;
+    background-color: aquamarine;
+}
+input.inpt:focus{
+    color: black;
+    background-color: lightgreen;
+}
+p.para::first-letter{
+    color: red;
+    font-size: 100px;
+}
+p.span.spn::first-letter{
+    color: blue;
+}
+p::selection{
+    color: red;
+    background-color: aqua;
+}
+label.lbl::before{
+    content: "/20B9";
+}
